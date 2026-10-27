@@ -7,6 +7,9 @@
     "test": "playwright test",
     "test:functional": "playwright test tests/functional",
     "test:integration": "playwright test tests/integration",
+    "test:addbook": "playwright test tests/functional/addBook.spec.ts",
+    "test:getbook": "playwright test tests/functional/getBook.spec.ts",
+    "test:deletebook": "playwright test tests/functional/deleteBook.spec.ts",
     "test:crud": "playwright test tests/integration/crud.spec.ts",
     "report": "playwright show-report"
   },
@@ -18,7 +21,7 @@
     "automation",
     "library-api"
   ],
-  "author": "Karina Montero Leonardo",
+  "author": "Karina Monter Leonardo",
   "license": "MIT",
   "devDependencies": {
     "@playwright/test": "^1.64.1",
